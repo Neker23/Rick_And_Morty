@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.selector {
+    background-color: rgb(9, 245, 245);
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.selector:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+}

@@ -1,0 +1,52 @@
+h2 {
+    font-size: 15px;
+}
+
+.container {
+    width: 200px;
+    height: 260px;
+    margin: 20px;
+    background-color: rgb(148, 144, 144);
+    border-radius: 15px;
+}
+
+.cardTop {
+    height: 25px;
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+.cardBot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.button {
+    background-color: red;
+    width: 10%;
+    cursor: pointer;
+    padding: 0;
+}
+
+#name {
+    background-color: yellow;
+    font-weight: bold;
+    width: 90%;
+}
+
+.info {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.image{
+    width: 100%;
+}
+
+.buttonHeart {
+    background-color: rgb(148, 144, 144);
+}
